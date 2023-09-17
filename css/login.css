@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+ h3{
+    font-size: 28px !important;
+ }
+.username {
+    border: none !important;
+
+}
+
+.input {
+    border: none !important;
+}
+
+.cont {
+    border-radius: 20px !important;
+    width: 80vh !important;
+    margin: 4rem 0rem;
+}
+
+input {
+    width: 60% !important;
+    margin: auto !important;
+
+}
+
+input:active {
+    border: 2px solid #108a00 !important;
+}
+
+.ues {
+
+    width: 70% !important;
+    border: 2px solid rgb(189, 183, 183);
+    margin: auto !important;
+    border-radius: 5px;
+}
+
+.withmail {
+    color: rgb(255, 255, 255) !important;
+    border-radius: 20px !important;
+    width: 70% !important;
+    background-color: #108a00 !important;
+}
+
+.withmail:hover {
+    background-color: rgb(23, 202, 23) !important;
+}
+
+.google {
+    border-radius: 50%;
+    border: 5px solid white;
+    float: left !important;
+    width: 1.7rem;
+    height: 1.7rem;
+}
+
+.buto {
+    margin-top: 1rem !important;
+    color: rgb(255, 255, 255) !important;
+    border-radius: 50px !important;
+    width: 70% !important;
+    text-align: center;
+}
+
+.apple {
+    border: 1px solid black !important;
+    border-radius: 20px !important;
+    width: 70% !important;
+    margin: auto !important;
+}
+
+.b-bottom {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.312);
+    color: rgb(255, 255, 255);
+}
+
+.signup {
+    border: 2px solid #108a00 !important;
+    color: #108a00 !important;
+    border-radius: 30px !important;
+    width: 46% !important;
+    margin-top: 1rem !important;
+}
+
+.signup:hover{
+    background-color: rgb(239, 244, 244);
+}
+
+footer p{
+    color: white;
+    background-color: #001e00;
+    width: 100vw;
+    height: 15vh;
+    text-align: center !important;
+    margin:0 1rem ;
+    padding: 3rem 0;
+    border-radius: 1rem;
+    font-size: 0.8rem;
+}
+
+@media (max-width:768px) {
+    .container {
+        width: 100vw!important;
+    }
+
+}
